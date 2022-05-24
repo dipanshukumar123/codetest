@@ -105,7 +105,7 @@
                 pageLength: 10,
                 order: [[0, 'DESC']],
                 columnDefs: [
-                    {"defaultContent": "-", "targets": "_all"},
+                    {"defaultContent": "", "targets": "_all"},
                     {orderable: false, targets: [0, 1, 2, 3, 4, 5]},
                     {className: 'text-center', targets: [0, 1, 2, 3, 4, 5]},
                     {width: '30px', targets: 0},
